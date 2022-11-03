@@ -99,7 +99,7 @@ a{
 .nav-bar a{
   text-decoration: none;
   color: white;
-
+  font-size: 30px;
 }
 
 .homepageAbout{
@@ -130,4 +130,37 @@ a{
   margin: 10px;
   font-family: monospace;
   size: 15px;
+}
+
+.homepageWorks{
+  background-image:linear-gradient(
+    rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0.1)), url("../img/575663d4c7f2db93b78d4f0d5e4cde21ef4a7d64.jpeg");
+    background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 100vh; */
+}
+
+.accolades{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+}
+
+.accolades ul{
+  color: white;
+}
+
+.accolades img{
+  height: 200px;
+  width: 200px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.gif-box{
 }
